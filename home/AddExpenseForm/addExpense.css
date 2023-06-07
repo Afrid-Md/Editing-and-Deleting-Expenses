@@ -1,0 +1,29 @@
+.add{
+    margin-top: 50px;
+}
+
+.buttonSpan{
+    width: 90%;
+    background-image: linear-gradient(to right, RGB(91, 94, 166), rgba(61,44,119,255));
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 100px;
+    border: 1px solid rgba(66,47,129,255);
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow:2px 2px #888888;
+}
+
+.newexpenseButton{
+    color:white;
+    width: 250px;
+    height: 50px;
+    background-color: rgba(18,18,18,255);
+    border:2px solid rgba(18,18,18,255);
+    border-radius: 10px;
+    font-size: larger;
+    font-family: monospace;
+    font-size: 25px;
+}

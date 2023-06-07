@@ -1,0 +1,115 @@
+.li {
+  height: auto;
+  background-color: black;
+  border: 1px solid white;
+  list-style: none;
+  color: white;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+  border-radius: 10px;
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.List {
+  width: 100%;
+  margin-top: 20px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  margin-right: 30px;
+}
+
+.dateDiv {
+  display: grid;
+  width: 150px;
+  height: auto;
+  background-color: rgba(61, 44, 119, 255);
+  border-radius: 10px;
+  padding: 10px;
+  justify-content: space-around;
+  align-items: center;
+  border: 1px solid white;
+}
+
+.mainDiv { 
+  padding-left: 30px;
+  padding-right: 30px;
+  padding-top: 5px;
+  padding-bottom: 10px;
+  display: flex;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.month {
+  font-size: 30px;
+}
+
+.day {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.year {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 20px;
+}
+
+.spent {
+  display: grid;
+  justify-content: space-between;
+  align-items: center;
+  margin-left: 50px;
+  width: 800px;
+}
+
+.category {
+  font-size: 50px;
+  text-decoration: underline;
+  font-family:Arial, Helvetica, sans-serif;
+}
+
+.description {
+  font-size: 30px;
+}
+
+.amount {
+  font-size: 30px;
+  background-color: rgba(61, 44, 119, 255);
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid white;
+  border-radius: 5px;
+  margin-left: 10px;
+  margin-right: 20px;
+}
+
+.buttonsDiv{
+    display: grid;
+    justify-content: space-between;
+    align-items: center;
+} 
+.editButton{
+   margin-bottom: 40px; 
+   color: white;
+   background-color:  rgba(61, 44, 119, 255);
+   border: 1px solid  rgba(61, 44, 119, 255);
+   width: 100px;
+   height: 40px;
+   font-size: large;
+   border-radius: 5px;
+}
+
+.removeButton{
+    color: white;
+    background-color:  rgb(98, 26, 26);
+    border: 1px solid   rgb(98, 26, 26);
+    width: 100px;
+    height: 40px;
+    font-size: large;
+    border-radius: 5px;
+} 

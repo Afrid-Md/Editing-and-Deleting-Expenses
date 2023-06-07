@@ -1,0 +1,20 @@
+.headingwelcome{
+    margin-left: 50px;
+    color: white;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+.navvbaarr{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.butttonsss{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.buttonn{
+    margin: 20px;
+}

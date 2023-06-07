@@ -1,0 +1,93 @@
+.form{
+    background-image: linear-gradient(to right,RGB(91, 94, 166), rgba(61,44,119,255));
+    width: 90%;
+    margin-left: 5%;
+    margin-right: 5%;
+    height: auto;
+    border: 1px solid rgba(66,47,129,255) ;
+    border-radius: 10px;
+    box-shadow: 2px 2px #888888;
+    color: white;
+    font-family:monospace;
+    font-size: 25px;
+}
+
+.first{
+   margin: 40px;
+   display: flex;
+   justify-content: space-between;
+}
+
+.input{
+    width: 400px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+}
+
+.second{
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-bottom: 60px;
+}
+
+.dateSpan{
+    margin-left: 160px;
+}
+
+.buttonsSpan{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 50px;
+    margin-bottom: 30px;
+}
+
+.cancelButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 130px;
+    height: 40px;
+    background-color: gray;
+    border:2px solid gray;
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:cursive;
+    margin-right: 40px;
+}
+
+.addExpenseButton{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+    width: 180px;
+    height: 40px;
+    background-color: rgba(18,18,18,255);
+    border:2px solid rgba(18,18,18,255);
+    border-radius: 10px;
+    font-size: 20px;
+    font-family:cursive;
+}
+
+.inputList{
+    width: 400px;
+    height: 40px;
+    margin-left: 10px;
+    border-radius: 10px;
+    border: 2px solid white;
+    font-family:'Courier New', Courier, monospace
+}
+
+.error{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(255, 66, 66);;
+    font-size: 25px;
+}
